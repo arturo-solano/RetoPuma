@@ -22,6 +22,96 @@ main section img
 		
 }
 
+#marce .imagen{
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+}
+#marce .imagen .circular{
+	border-radius: 50%;
+}
+#marce .imagen1{
+	display: inline-block;
+	width: 20%;
+	float:right;
+}
+#marce .imagen img{
+	width: 100%;
+}
+#marce .texto {
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+}
+#liz .imagen{
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+}
+#liz .imagen .circular{
+	border-radius: 50%;
+}
+#liz .imagen1{
+	display: inline-block;
+	width: 20%;
+	float:right;
+}
+#liz .imagen img{
+	width: 100%;
+}
+#liz .texto{
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+}
+#arthur .imagen{
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+}
+#arthur .imagen .circular{
+	border-radius: 50%;
+}
+#arthur .imagen1{
+	display: inline-block;
+	width: 20%;
+	float:right;
+}
+#arthur .imagen img{
+	width: 100%;
+}
+#arthur .texto{
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+}
+#jorge .imagen{
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+}
+#jorge .imagen .circular{
+	border-radius: 50%;
+}
+#jorge .imagen1{
+	display: inline-block;
+	width: 20%;
+	float:right;
+	vertical-align: middle;
+}
+#jorge .imagen img{
+	width: 100%;
+}
+#jorge .texto{
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+}
+
 div h1 p 
 {
 	margin-right: auto;
