@@ -27,6 +27,16 @@ main section img
 	width: 40%;
 	vertical-align: middle;
 }
+#marce .imagen .bandera{
+	border-radius: 8px;
+	display: inline-block;
+	width: 20%;
+	float:right;
+	vertical-align: middle;
+}
+#marce .imagen p{
+	font: oblique bold 120% cursive;
+}
 #marce .imagen .circular{
 	border-radius: 50%;
 }
@@ -34,6 +44,7 @@ main section img
 	display: inline-block;
 	width: 20%;
 	float:right;
+	vertical-align: middle;
 }
 #marce .imagen img{
 	width: 100%;
@@ -48,6 +59,16 @@ main section img
 	display: inline-block;
 	width: 40%;
 	vertical-align: middle;
+}
+#liz .imagen .bandera{
+	border-radius: 8px;
+	display: inline-block;
+	width: 20%;
+	float:right;
+	vertical-align: middle;
+}
+#liz .imagen p{
+	font: oblique bold 120% cursive;
 }
 #liz .imagen .circular{
 	border-radius: 50%;
@@ -71,6 +92,16 @@ main section img
 	width: 40%;
 	vertical-align: middle;
 }
+#arthur .imagen .bandera{
+	border-radius: 8px;
+	display: inline-block;
+	width: 20%;
+	float:right;
+	vertical-align: middle;
+}
+#arthur .imagen p{
+	font: oblique bold 120% cursive;
+}
 #arthur .imagen .circular{
 	border-radius: 50%;
 }
@@ -92,6 +123,16 @@ main section img
 	display: inline-block;
 	width: 40%;
 	vertical-align: middle;
+}
+#jorge .imagen .bandera{
+	border-radius: 8px;
+	display: inline-block;
+	width: 20%;
+	float:right;
+	vertical-align: middle;
+}
+#jorge .imagen p{
+	font: oblique bold 120% cursive;
 }
 #jorge .imagen .circular{
 	border-radius: 50%;
