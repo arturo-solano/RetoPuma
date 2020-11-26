@@ -11,7 +11,7 @@ El objetivo principal de este proyecto es que, llegue a trabajar de forma colabo
 - [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
 - [ ] Colaborar en Github (pull requests).
 ### UX
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Diseñar la aplicación pensando y entendiendo el reto (portafolio de nosotros).
 
 
 ### HTML y CSS
