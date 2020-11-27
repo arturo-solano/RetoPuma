@@ -64,19 +64,20 @@ main section
 #footer .container
 {
 	column-count: 4;
-	text-align: justify;
+	
 	
 }
 #footer nav
 {
-	background: #252932;
+	background: white;
 	width: 50%;
 	height: 40%%;
 	padding-top: 10px;
 	padding-left: 50px;
 	padding-inline-end: 15px;
 	margin-left: 25px;
-	text-align: 10px;		
+	text-align: center;
+	margin-bottom; 15px;		
 }
 
 #pie-footer
