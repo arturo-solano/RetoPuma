@@ -1,4 +1,6 @@
-*{margin:0; padding: o;}
+*{margin:0;
+ padding: o;
+ font-family: 'Montserrat', sans-serif;}
 
 body {
 	background: #fffffa;
@@ -11,7 +13,9 @@ header
 	background: #252932;
 	margin-bottom: 20px;
 }
-
+article {
+    margin: 30px 0px;
+}
 .wrapper
 {
 	width: 90%;
@@ -19,7 +23,18 @@ header
 	margin: auto;
 	overflow: hidden;
 }
-
+.row{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+main section {
+    margin: 30px 3px;
+}
+.mitad{
+	width: 50%;
+	float: left;
+}
 header .logo
 {
 	line-height: 100px;
@@ -55,7 +70,12 @@ main section
 {
 	text-align: center;
 }
-
+.principal h2 {
+    margin: 2.5em 0em;
+}
+#quienes-somos aside p {
+    text-align: justify;
+}
 #contactanos title
 {
 	color: black;
