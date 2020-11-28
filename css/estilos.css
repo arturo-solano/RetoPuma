@@ -149,8 +149,8 @@ main section
 	float:right;
 	vertical-align: middle;
 }
-#marce .imagen img{
-	width: 100%;
+.biografia .imagen img{
+	width: 65%;
 }
 #marce .texto {
 	width: 40%;
@@ -181,9 +181,7 @@ main section
 	width: 20%;
 	float:right;
 }
-#liz .imagen img{
-	width: 100%;
-}
+
 #liz .texto{
 	width: 40%;
 	display: inline-block;
@@ -213,9 +211,7 @@ main section
 	width: 20%;
 	float:right;
 }
-#arthur .imagen img{
-	width: 100%;
-}
+
 #arthur .texto{
 	width: 40%;
 	display: inline-block;
@@ -246,9 +242,7 @@ main section
 	float:right;
 	vertical-align: middle;
 }
-#jorge .imagen img{
-	width: 100%;
-}
+
 #jorge .texto{
 	width: 40%;
 	display: inline-block;
@@ -265,7 +259,52 @@ div h1 p
 	text-align: center;
 	margin-bottom: 15px;
 }
-
+section#quienes-somos {
+    background: #f3f2e4;
+    padding-top: 20px;
+}
+#quienes-somos article.biografia {
+	height: 215px;
+	color: #616163;
+}
+#quienes-somos .biografia li {
+    list-style: none;
+}
+.chicas article.biografia {
+    height: auto!important;
+}
+.row article div {
+    padding: 5px;
+    margin: 10px;
+    background: rgb(244,246,85);
+}
+figure.bandera {
+    position: relative;
+    top: -690px;
+	left: -240px;
+	margin-bottom: -15px;
+}
+.chicas figure.bandera {
+    position: relative;
+    top: -590px;
+    left: -240px;
+}
+#quienes-somos h3 a {
+    color: #fff;
+    text-decoration: none;
+    background: #252932;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -oz-border-radius: 20px;
+	padding: 15px;
+}
+#quienes-somos h3 a:hover {
+	background: #f56f3a;}
+	.wrapper h2 {
+		text-align: center;
+		padding: 20px;
+	}
 
 
 
