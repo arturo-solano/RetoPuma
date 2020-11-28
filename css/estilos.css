@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,700&display=swap');
+/* =================
+$CRÉDITOS
+===================
+    DISEÑO GRÁFICO y FRONT-END: EDGAR GUTIERREZ, G3Kdigital;
+*/
+
+/* ================
+$COLORES
+===================*/
+* {
+    -webkit-font-smoothing: antialiased; /* Sin bold en Mac. */
+    box-sizing: border-box;
+}
 body
 {
 	color: black;
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Chakra Petch', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -16,13 +30,18 @@ header .container .logo
 	
 }
 
-main section img	
-{
-
-		
-}
 
 div h1 p 
 {
 	margin-right: auto;
 }
+main{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.home-colum2{
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+}
+
