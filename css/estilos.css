@@ -1,47 +1,316 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,700&display=swap');
-/* =================
-$CRÉDITOS
-===================
-    DISEÑO GRÁFICO y FRONT-END: EDGAR GUTIERREZ, G3Kdigital;
-*/
-
-/* ================
-$COLORES
-===================*/
-* {
-    -webkit-font-smoothing: antialiased; /* Sin bold en Mac. */
-    box-sizing: border-box;
-}
-body
-{
-	color: black;
-	text-align: center;
-	font-family: 'Chakra Petch', sans-serif;
-	margin: 0;
-	padding: 0;
-}
-
-header .container .logo
-{
-	width: 50px;
-	padding-right: 50%;
-	padding-top: 10px;
-	margin-right: auto;
-	
-}
-
-
-div h1 p 
-{
-	margin-right: auto;
-}
-main{
-	max-width: 1400px;
-	margin: 0 auto;
-}
+*{margin:0;
+	padding: o;
+	font-family: 'Montserrat', sans-serif;}
+   
+   body {
+	   background: #fffffa;
+   }
+   
+   header
+   {
+	   width: 100%;
+	   overflow: hidden;
+	   background: #252932;
+	   margin-bottom: 20px;
+   }
+   article {
+	   margin: 30px 0px;
+   }
+   .wrapper
+   {
+	   width: 90%;
+	   max-width: 1000px;
+	   margin: auto;
+	   overflow: hidden;
+   }
+   .row{
+	   width: 80%;
+	   margin: auto;
+	   overflow: hidden;
+   }
+   main section {
+	   margin: 30px 3px;
+   }
+   .mitad{
+	   width: 50%;
+	   float: left;
+   }
+   header .logo
+   {
+	   line-height: 100px;
+	   float: left;
+	   padding-top: 25px;
+   }
+   
+   header nav
+   {
+	   float: right;
+	   line-height: 200px;
+   }
+   
+   header nav a
+   {
+	   display: inline-block;
+	   color: #fff;
+	   text-decoration: none;
+	   padding: 10px 20px;
+	   line-height: normal;
+	   font-size: 16px;
+	   font-weight: bold;
+	   -webkit-transition: all 500ms ease;
+   }
+   
+   header nav a:hover
+   {
+	   background: #f56f3a;
+	   border-radius: 50px;
+   }
+   
+   main section
+   {
+	   text-align: center;
+   }
+   .principal h2 {
+	   margin: 2.5em 0em;
+   }
+   #quienes-somos aside p {
+	   text-align: justify;
+   }
+   #contactanos title
+   {
+	   color: black;
+   }
+   
+   #footer .container
+   {
+	   column-count: 4;
+	   text-align: justify;
+	   
+   }
+   #footer nav
+   {
+	   background: #252932;
+	   width: 50%;
+	   height: 40%;
+	   padding-top: 10px;
+	   padding-left: 50px;
+	   padding-inline-end: 15px;
+	   margin-left: 25px;
+	   text-align: 10px;		
+   }
+   
+   #pie-footer
+   {
+	   background:  #252932;
+	   width: 100%;
+	   height: auto;	
+   }
+   
+   .titulo-footer
+   {
+	   color: white;
+	   text-align: center;
+	   padding: 10px;
+	   position: relative;
+	   top: 5px;
+	   
+   }
+   
+   .span-subtitulo
+   {
+	   color: rgb(244,246,85);
+	   font-weight: 500;
+   }
+   
+   #contactanos{
+	   
+   }
+   #marce .imagen{
+	   display: inline-block;
+	   width: 40%;
+	   vertical-align: middle;
+   }
+   #marce .imagen .bandera{
+	   border-radius: 8px;
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+	   vertical-align: middle;
+   }
+   #marce .imagen p{
+	   font: oblique bold 120% cursive;
+   }
+   #marce .imagen .circular{
+	   border-radius: 50%;
+   }
+   #marce .imagen1{
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+	   vertical-align: middle;
+   }
+   #marce .imagen img{
+	   width: 100%;
+   }
+   #marce .texto {
+	   width: 40%;
+	   display: inline-block;
+	   vertical-align: middle;
+	   text-align: justify;
+   }
+   #liz .imagen{
+	   display: inline-block;
+	   width: 40%;
+	   vertical-align: middle;
+   }
+   #liz .imagen .bandera{
+	   border-radius: 8px;
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+	   vertical-align: middle;
+   }
+   #liz .imagen p{
+	   font: oblique bold 120% cursive;
+   }
+   #liz .imagen .circular{
+	   border-radius: 50%;
+   }
+   #liz .imagen1{
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+   }
+   #liz .imagen img{
+	   width: 100%;
+   }
+   #liz .texto{
+	   width: 40%;
+	   display: inline-block;
+	   vertical-align: middle;
+	   text-align: justify;
+   }
+   #arthur .imagen{
+	   display: inline-block;
+	   width: 40%;
+	   vertical-align: middle;
+   }
+   #arthur .imagen .bandera{
+	   border-radius: 8px;
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+	   vertical-align: middle;
+   }
+   #arthur .imagen p{
+	   font: oblique bold 120% cursive;
+   }
+   #arthur .imagen .circular{
+	   border-radius: 50%;
+   }
+   #arthur .imagen1{
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+   }
+   #arthur .imagen img{
+	   width: 100%;
+   }
+   #arthur .texto{
+	   width: 40%;
+	   display: inline-block;
+	   vertical-align: middle;
+	   text-align: justify;
+   }
+   #jorge .imagen{
+	   display: inline-block;
+	   width: 40%;
+	   vertical-align: middle;
+   }
+   #jorge .imagen .bandera{
+	   border-radius: 8px;
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+	   vertical-align: middle;
+   }
+   #jorge .imagen p{
+	   font: oblique bold 120% cursive;
+   }
+   #jorge .imagen .circular{
+	   border-radius: 50%;
+   }
+   #jorge .imagen1{
+	   display: inline-block;
+	   width: 20%;
+	   float:right;
+	   vertical-align: middle;
+   }
+   #jorge .imagen img{
+	   width: 100%;
+   }
+   #jorge .texto{
+	   width: 40%;
+	   display: inline-block;
+	   vertical-align: middle;
+	   text-align: justify;
+   }
+   
+   div h1 p 
+   {
+	   color: black;
+	   font-size: 20px;
+	   margin-top: 35px;
+	   font-weight: 800;
+	   text-align: center;
+	   margin-bottom: 15px;
+   }
+   
+/*home*/
 .home-colum2{
-display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-	width: 100%;
+    width: 100%;
 }
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+h1 { 
+	font: bold 200% Consolas, Monaco, monospace;
+	border-right: .1em solid black;
+	width: 16.5em;
+
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 7s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+h1.hola-mundo {
+    margin: 2em 0em;
+    margin-left: 8em;
+}
+figure.home-banderas-comunidad {
+    background: #b9929278;
+    padding: 20px;
+}
+object {
+    padding-right: 80px;
+}
+iframe.image-squad {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
