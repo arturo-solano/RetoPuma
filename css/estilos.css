@@ -15,6 +15,7 @@
 	   position: fixed;
 	   top: 0;
 	   width: 100%;
+	   z-index: 100;
    }
    img.logo {
     border-radius: 50%;
@@ -537,6 +538,10 @@ figure.bandera {
     top: -690px;
 	left: -240px;
 	margin-bottom: -15px;
+	opacity: 0;
+}
+#quienes-somos article.mitad:hover + figure.bandera {
+    opacity: 1!important;
 }
 .chicas figure.bandera {
     position: relative;
