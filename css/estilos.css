@@ -569,7 +569,14 @@ figure.bandera {
 	#quienes-somos img {
 		border-radius: 20px;
 	}
-
+	footer section {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	p.contactanos {
+		border-top: 5px grey solid;
+		padding-top: 20px;
+	}
 
 
 
