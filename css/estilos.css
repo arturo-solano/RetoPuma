@@ -11,10 +11,8 @@
 	   width: 100%;
 	   overflow: hidden;
 	   background: #252932;
-	   margin-bottom: 10px;
 	   position: fixed;
 	   top: 0;
-	   width: 100%;
 	   z-index: 100;
    }
    img.logo {
@@ -37,6 +35,7 @@
    }
    main section {
 	   margin: 30px 3px;
+	   text-align: center;
    }
    .mitad{
 	   width: 50%;
@@ -46,13 +45,13 @@
    {
 	   line-height: 100px;
 	   float: left;
-	   padding-top: 25px;
+	   padding-top: 15px;
    }
    
    header nav
    {
 	   float: right;
-	   line-height: 200px;
+	   line-height: 180px;
    }
    
    header nav a
@@ -72,26 +71,21 @@
 	   background: #f56f3a;
 	   border-radius: 50px;
    }
-   
-   main section
-   {
-	   text-align: center;
-   }
    .principal h2 {
 	   margin: 2.5em 0em;
    }
    #quienes-somos aside p {
 	   text-align: justify;
    }
-   #contactanos title
+   /*#contactanos title
    {
 	   color: black;
-   }
+   }*/
    
    #footer .container
    {
 	   column-count: 4;
-	   text-align: justify;
+	   text-align: center;
 	   
    }
    #footer nav
@@ -102,7 +96,7 @@
 	   padding-top: 10px;
 	   padding-left: 50px;
 	   padding-inline-end: 15px;
-	   margin-left: 25px;
+	   margin: 0 auto;
 	   text-align: 10px;		
    }
    
@@ -123,32 +117,34 @@
 	   
    }
    
-   .span-subtitulo
+   .span-subtitulo, footer article a
    {
 	   color: rgb(244,246,85);
 	   font-weight: 500;
    }
    
-   #contactanos{
-	   
-   }
-   #marce .imagen{
+ section .imagen{
 	   display: inline-block;
 	   width: 40%;
 	   vertical-align: middle;
    }
-   #marce .imagen .bandera{
+.imagen .bandera{
 	   border-radius: 8px;
 	   display: inline-block;
-	   width: 20%;
-	   float:right;
+	   width: 13%;
+	   float: right;
 	   vertical-align: middle;
+	   margin-top: -40px;
    }
+   .foto figcaption {
+    display: inline-block;
+    width: 50%;
+}
    #marce .imagen p{
 	   font: oblique bold 120% cursive;
    }
-   #marce .imagen .circular{
-	   border-radius: 50%;
+   .imagen .foto{
+	   margin-top: 15px;
    }
    #marce .imagen1{
 	   display: inline-block;
@@ -156,41 +152,35 @@
 	   float:right;
 	   vertical-align: middle;
    }
-   #marce .imagen img{
-	   width: 100%;
-   }
+  
    #marce .texto {
 	   width: 40%;
 	   display: inline-block;
 	   vertical-align: middle;
 	   text-align: justify;
    }
-   #liz .imagen{
-	   display: inline-block;
-	   width: 40%;
-	   vertical-align: middle;
-   }
-   #liz .imagen .bandera{
-	   border-radius: 8px;
-	   display: inline-block;
-	   width: 20%;
-	   float:right;
-	   vertical-align: middle;
-   }
+  
+   footer section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
    #liz .imagen p{
 	   font: oblique bold 120% cursive;
    }
-   #liz .imagen .circular{
-	   border-radius: 50%;
-   }
+  
+   img.circular {
+    border-radius: 50%;
+	width: 456px;
+    height: 608px;
+}
    #liz .imagen1{
 	   display: inline-block;
 	   width: 20%;
 	   float:right;
    }
-   #liz .imagen img{
-	   width: 100%;
-   }
+  
    #liz .texto{
 	   width: 40%;
 	   display: inline-block;
@@ -202,13 +192,7 @@
 	   width: 40%;
 	   vertical-align: middle;
    }
-   #arthur .imagen .bandera{
-	   border-radius: 8px;
-	   display: inline-block;
-	   width: 20%;
-	   float:right;
-	   vertical-align: middle;
-   }
+ 
    #arthur .imagen p{
 	   font: oblique bold 120% cursive;
    }
@@ -220,9 +204,7 @@
 	   width: 20%;
 	   float:right;
    }
-   #arthur .imagen img{
-	   width: 100%;
-   }
+  
    #arthur .texto{
 	   width: 40%;
 	   display: inline-block;
@@ -234,13 +216,7 @@
 	   width: 40%;
 	   vertical-align: middle;
    }
-   #jorge .imagen .bandera{
-	   border-radius: 8px;
-	   display: inline-block;
-	   width: 20%;
-	   float:right;
-	   vertical-align: middle;
-   }
+  
    #jorge .imagen p{
 	   font: oblique bold 120% cursive;
    }
@@ -253,9 +229,7 @@
 	   float:right;
 	   vertical-align: middle;
    }
-   #jorge .imagen img{
-	   width: 100%;
-   }
+ 
    #jorge .texto{
 	   width: 40%;
 	   display: inline-block;
@@ -298,67 +272,10 @@ h1 {
 	           blink-caret .5s step-end infinite alternate;
 }
 
-header .logo
-{
-	line-height: 100px;
-	float: left;
-	padding-top: 25px;
-}
 
-header nav
-{
-	float: right;
-	line-height: 200px;
-}
 
-header nav a
-{
-	display: inline-block;
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 20px;
-	line-height: normal;
-	font-size: 16px;
-	font-weight: bold;
-	-webkit-transition: all 500ms ease;
-}
 
-header nav a:hover
-{
-	background: #f56f3a;
-	border-radius: 50px;
-}
-
-main section
-{
-	text-align: center;
-}
-
-#contactanos title
-{
-	color: black;
-}
-
-#footer .container
-{
-	column-count: 4;
-	
-	
-}
-#footer nav
-{
-	background: white;
-	width: 50%;
-	height: 40%;
-	padding-top: 10px;
-	padding-left: 50px;
-	padding-inline-end: 15px;
-	margin-left: 25px;
-	text-align: center;
-	margin-bottom:15px;		
-}
-
-#pie-footer
+footer, #pie-footer
 {
 	background:  #252932;
 	width: 100%;
@@ -380,24 +297,8 @@ main section
 	color: rgb(244,246,85);
 	font-weight: 500;
 }
-
-#marce .imagen{
-	display: inline-block;
-	width: 40%;
-	vertical-align: middle;
-}
-#marce .imagen .bandera{
-	border-radius: 8px;
-	display: inline-block;
-	width: 20%;
-	float:right;
-	vertical-align: middle;
-}
 #marce .imagen p{
 	font: oblique bold 120% cursive;
-}
-#marce .imagen .circular{
-	border-radius: 50%;
 }
 figure.home-banderas-comunidad {
     background: #b9929278;
@@ -409,49 +310,14 @@ object {
 iframe.image-squad {
     margin-top: 100px;
 }
-#liz{
-display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-}
-
-#liz img.circular {
-    border-radius: 50%;
-    max-width: 60%;
-    max-height: 100%;
-}
-#liz img.bandera {
-	width: 7%;
-	position: relative;
-	top: 650px;
-
-}
-
-#liz aside.texto {
-	width: 80%;
-	padding-top: 30%;
-	line-height: 35px;
-	font-size: 20px;
-}
-
 #liz .imagen1{
 	display: inline-block;
 	width: 20%;
 	float:right;
 }
 
-arthur .imagen{
-	display: inline-block;
-	width: 40%;
-	vertical-align: middle;
-}
-#arthur .imagen .bandera{
-	border-radius: 8px;
-	display: inline-block;
-	width: 20%;
-	float:right;
-	vertical-align: middle;
-}
+
+
 #arthur .imagen p{
 	font: oblique bold 120% cursive;
 }
@@ -475,13 +341,7 @@ arthur .imagen{
 	width: 40%;
 	vertical-align: middle;
 }
-#jorge .imagen .bandera{
-	border-radius: 8px;
-	display: inline-block;
-	width: 20%;
-	float:right;
-	vertical-align: middle;
-}
+
 #jorge .imagen p{
 	font: oblique bold 120% cursive;
 }
@@ -502,7 +362,9 @@ arthur .imagen{
 	text-align: justify;
 }
 
-
+h3.contactanos {
+    padding: 20px 0;
+}
 
 #contactanos
 {
@@ -511,7 +373,6 @@ arthur .imagen{
 	margin-top: 35px;
 	font-weight: 800;
 	text-align: center;
-	margin-bottom: 15px;
 }
 section#quienes-somos {
     background: #f3f2e4;
